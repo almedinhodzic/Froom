@@ -1,0 +1,14 @@
+.likedBtn {
+  color: blue;
+  font-size: 1.5rem;
+}
+
+.unlikedBtn {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.unlikedBtn:hover,
+.likedBtn:hover {
+  cursor: pointer;
+}

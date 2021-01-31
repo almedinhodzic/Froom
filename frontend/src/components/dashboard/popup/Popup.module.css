@@ -1,0 +1,42 @@
+.alertContainer {
+  margin-top: 1rem;
+  background: red;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.alertContainer button {
+  margin-top: 10px;
+  margin-right: 1rem;
+  width: 130px;
+  padding: 5px;
+}
+
+.alertContainer button:hover {
+  cursor: pointer;
+  background: rgb(167, 5, 5);
+}
+
+.alertContainer .confirm {
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: rgb(211, 10, 10);
+}
+
+.alertContainer .cancel {
+  background-color: #133c55;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.alertContainer .cancel:hover {
+  cursor: pointer;
+  background: #092b41;
+}
+
+.alertContainer .cancel:focus,
+.alertContainer .confirm:focus {
+  outline: none;
+  border: none;
+}

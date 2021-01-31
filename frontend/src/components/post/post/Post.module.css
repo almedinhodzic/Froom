@@ -1,0 +1,81 @@
+.post {
+  width: 70%;
+  margin: 2rem auto 1rem auto;
+}
+
+.backBtn {
+  width: 20%;
+  background-color: #333;
+  border: none;
+  height: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.backBtn:hover {
+  background: rgb(26, 26, 26);
+  cursor: pointer;
+}
+
+.backBtn:focus {
+  outline: none;
+  border: none;
+}
+
+.postContent {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+.postContent p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.postContent .info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.postContent .info .infoIn {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+}
+
+.postContent .info .infoIn div {
+  margin: 0 1rem;
+}
+
+.likedBtn {
+  color: blue;
+  font-size: 1.5rem;
+}
+
+.unlikedBtn {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.unlikedBtn:hover,
+.likedBtn:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .post {
+    width: 90%;
+    overflow: auto;
+  }
+  .backBtn {
+    width: 45%;
+  }
+  .postContent .info .infoIn {
+    flex-direction: column;
+  }
+  .postContent .info .infoIn div {
+    margin: 0.2rem 0.5rem;
+  }
+}

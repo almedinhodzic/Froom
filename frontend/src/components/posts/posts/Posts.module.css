@@ -1,0 +1,160 @@
+.posts {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+}
+
+form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+form textarea {
+  width: 100%;
+  height: 5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #3f5efb;
+  font-family: inherit;
+}
+
+form textarea:focus {
+  outline: none;
+  border: 1px solid #242d5c;
+}
+
+.postBtn {
+  width: 20%;
+  background-color: #133c55;
+  margin-bottom: 2rem;
+  border: none;
+  height: 2rem;
+  color: #fff;
+}
+
+.postBtn:focus {
+  outline: none;
+  border: none;
+}
+
+.postBtn:hover {
+  background: #092b41;
+  cursor: pointer;
+}
+
+.posts p {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+  margin: auto;
+  font-size: 15px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+table thead th {
+  background-color: #287db2;
+  color: #fff;
+  text-align: left;
+}
+table tbody td {
+  background-color: rgb(151, 148, 148);
+}
+
+table thead th,
+table tbody td {
+  border-left: 1px solid black;
+}
+table th,
+table td {
+  padding: 12px 15px;
+}
+
+table tbody tr {
+  border-top: 1px solid #000;
+}
+
+/* table tbody td:nth-of-type(even),
+table thead th:nth-of-type(even) {
+  background: #88c1e4;
+  color: black;
+} */
+
+th:nth-of-type(1) {
+  width: 50%;
+}
+
+th:nth-of-type(2) {
+  width: 25%;
+}
+
+th:nth-of-type(3),
+th:nth-of-type(4),
+th:nth-of-type(6) {
+  width: 3%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.delete {
+  background: rgb(141, 8, 8);
+  color: #fff;
+  text-align: center;
+}
+
+.delete:hover {
+  cursor: pointer;
+  background: rgb(83, 3, 3);
+}
+
+@media (max-width: 700px) {
+  .postBtn {
+    width: 45%;
+  }
+  table {
+    width: 100%;
+    font-size: 10px;
+    table-layout: fixed;
+    margin: 0;
+  }
+  table th,
+  table td {
+    padding: 2px 2px;
+    overflow: auto;
+  }
+  th:nth-of-type(1) {
+    width: 42%;
+  }
+  th:nth-of-type(2) {
+    width: 17%;
+  }
+  th:nth-of-type(3),
+  th:nth-of-type(4) {
+    width: 7%;
+  }
+  th:nth-of-type(5) {
+    width: 25%;
+  }
+  th:nth-of-type(6) {
+    width: 8%;
+  }
+  form textarea {
+    margin-bottom: 0;
+  }
+}

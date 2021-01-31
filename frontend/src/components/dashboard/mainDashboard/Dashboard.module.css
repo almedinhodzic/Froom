@@ -1,0 +1,77 @@
+.dashboard {
+  text-align: center;
+}
+
+.dashboard h1 {
+  margin: 2rem 0 3rem 0;
+}
+
+.dashboard .buttonContainer {
+  width: 70%;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.dashboard .buttonContainer button {
+  width: 20%;
+  background-color: #133c55;
+  border: none;
+  height: 2rem;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.dashboard .buttonContainer button:focus {
+  outline: none;
+  border: none;
+}
+
+.dashboard .buttonContainer button:hover {
+  background: #092b41;
+  cursor: pointer;
+}
+
+.delContainer {
+  width: 70%;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.dashboard .deleteButton {
+  width: 20%;
+  background-color: rgb(211, 10, 10);
+  border: none;
+  height: 2rem;
+  color: #fff;
+}
+
+.dashboard .deleteButton:hover {
+  background: rgb(167, 5, 5);
+  cursor: pointer;
+}
+
+.dashboard .deleteButton:focus {
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 700px) {
+  .dashboard .buttonContainer {
+    margin: 1rem 0.5rem;
+    width: 90%;
+  }
+  .dashboard .buttonContainer button {
+    width: 35%;
+    height: 1.2rem;
+    font-size: 10px;
+  }
+  .delContainer {
+    width: 90%;
+    margin: 1rem 0.5rem;
+  }
+  .dashboard .deleteButton {
+    width: 35%;
+    height: 1.2rem;
+    font-size: 10px;
+  }
+}

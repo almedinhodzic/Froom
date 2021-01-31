@@ -1,0 +1,112 @@
+.table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+  margin: 2rem auto;
+  font-size: 15px;
+  width: 70%;
+}
+
+.table thead th,
+.table tbody td {
+  background-color: #287db2;
+  color: #fff;
+  text-align: left;
+  width: 33%;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+}
+
+.table tbody tr {
+  border-top: 1px solid #000;
+}
+
+h3 {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.table tbody td:nth-of-type(even),
+.table thead th:nth-of-type(even) {
+  background: #88c1e4;
+  color: black;
+}
+
+.eduTable {
+  border-collapse: collapse;
+  border: 1px solid #000;
+  font-size: 15px;
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.eduTable thead th,
+.eduTable tbody td {
+  background-color: #c8c8c8;
+  color: #000;
+  text-align: left;
+  width: 50%;
+}
+
+.eduTable th,
+.eduTable td {
+  padding: 12px 15px;
+}
+
+.eduTable tbody tr {
+  border-top: 1px solid #000;
+}
+
+.eduTable tbody td:nth-of-type(even),
+.eduTable thead th:nth-of-type(even) {
+  background: #503636;
+  color: #fff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btnDiv {
+  width: 70%;
+  margin: auto;
+}
+
+.backBtn {
+  width: 20%;
+  background-color: #333;
+  border: none;
+  height: 2rem;
+  color: #fff;
+}
+
+.backBtn:hover {
+  background: rgb(26, 26, 26);
+  cursor: pointer;
+}
+
+.backBtn:focus {
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 700px) {
+  .table {
+    table-layout: fixed;
+  }
+  .table th,
+  .table td {
+    overflow: auto;
+  }
+  .table,
+  .eduTable,
+  .btnDiv {
+    width: 90%;
+  }
+  .backBtn {
+    width: 45%;
+  }
+}

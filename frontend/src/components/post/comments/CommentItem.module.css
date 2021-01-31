@@ -1,0 +1,36 @@
+.commentContent {
+  border: 1px #333 dotted;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+.comment {
+  margin-bottom: 0.7rem;
+  font-size: 1.2rem;
+}
+
+.infoComment {
+  display: flex;
+  justify-content: space-between;
+}
+
+.deleteComment {
+  color: red;
+}
+
+.deleteComment:hover {
+  cursor: pointer;
+  color: rgb(160, 6, 6);
+}
+
+@media (max-width: 700px) {
+  .infoComment {
+    flex-direction: column;
+  }
+  .deleteComment {
+    text-align: center;
+  }
+  .infoComment span {
+    margin-top: 0.5rem;
+  }
+}
