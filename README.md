@@ -35,10 +35,11 @@ It is little forum where user can create new profile, add some informations on p
 
 #### Installation
 
-First download project and then run
-`npm install` to install server dependencies
-Then go into frontend folder and run
-`npm install` to install client dependencies
+First download project <br/>
+
+`npm install` To install server dependencies <br/>
+Then go into frontend folder and run <br/>
+`npm install` To install client dependencies
 
 #### Scripts
 
