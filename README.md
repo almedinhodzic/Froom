@@ -42,9 +42,9 @@ Then go into frontend folder and run
 
 #### Scripts
 
-`npm run dev` to run both express server and react
-`npm run server` to run only express server
-`npm run frontend` to run only react
+`npm run dev` to run both express server and react <br/>
+`npm run server` to run only express server <br/>
+`npm run frontend` to run only react 
 
 ## References
 
