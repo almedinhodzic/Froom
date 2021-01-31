@@ -6,7 +6,7 @@ You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [References](#references)
+- [Live Demo](#live-demo)
 - [License](#license)
 - [Author Info](#author-info)
 
@@ -24,8 +24,6 @@ It is little forum where user can create new profile, add some informations on p
 - NodeJs
 - Express
 - MongoDB
-- Postman
-- VS Code
 
 [Back To The Top](#FROOM)
 
@@ -47,7 +45,7 @@ Then go into frontend folder and run <br/>
 `npm run server` to run only express server <br/>
 `npm run frontend` to run only react 
 
-## References
+## Live Demo
 
 - Website - [Froom](https://froom-best.herokuapp.com/)
 
