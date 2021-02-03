@@ -6,7 +6,7 @@ You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [References](#references)
+- [Live Demo](#live-demo)
 - [License](#license)
 - [Author Info](#author-info)
 
@@ -24,8 +24,6 @@ It is little forum where user can create new profile, add some informations on p
 - NodeJs
 - Express
 - MongoDB
-- Postman
-- VS Code
 
 [Back To The Top](#FROOM)
 
@@ -35,18 +33,19 @@ It is little forum where user can create new profile, add some informations on p
 
 #### Installation
 
-First download project and then run
-`npm install` to install server dependencies
-Then go into frontend folder and run
-`npm install` to install client dependencies
+First download project <br/>
+
+`npm install` To install server dependencies <br/>
+Then go into frontend folder and run <br/>
+`npm install` To install client dependencies
 
 #### Scripts
 
-`npm run dev` to run both express server and react
-`npm run server` to run only express server
+`npm run dev` to run both express server and react <br/>
+`npm run server` to run only express server <br/>
 `npm run frontend` to run only react
 
-## References
+## Live Demo
 
 - Website - [Froom](https://froom-best.herokuapp.com/)
 
