@@ -3,19 +3,16 @@ import styles from "./Post.module.css";
 import { useSelector, useDispatch } from "react-redux";
 import Loader from "../../layout/loader/Loader";
 import { getPost } from "../../../store/actions/post";
-import { useHistory, Link } from "react-router-dom";
+import { useHistory, Link, useParams } from "react-router-dom";
 import moment from "moment";
 import Likes from "../likes/Likes";
 import CommentForm from "../comments/CommentForm";
 import CommentItem from "../comments/CommentItem";
 
 // In this component getPost action is dispatched and singe post by id is fatched. Here user can see can see post, like post, comment on post, see who posted it. By clicking on user, he will be redirected to the profile of that user. Comments posted by user can be deleted.
-const Post = ({
-  match: {
-    params: { id },
-  },
-}) => {
+const Post = () => {
   const history = useHistory();
+  const { id } = useParams();
   const dispatch = useDispatch();
   const [showChildren, setShowChildren] = useState(false);
   const { post, loading } = useSelector((state) => state.forumPosts);

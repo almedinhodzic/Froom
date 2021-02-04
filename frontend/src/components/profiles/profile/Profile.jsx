@@ -4,17 +4,14 @@ import { useSelector, useDispatch } from "react-redux";
 import Loader from "../../layout/loader/Loader";
 import EducationForSingleProfile from "./EducationForSingleProfile";
 import styles from "./Profile.module.css";
-import { useHistory } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 
 // Component for single profile for user. We can see other profiles from different users. There user has access to see his basic infos, and education infos. When component mount, action is dispatched, and when action is finished, spinner will end and we can see user's profile.
-const Profile = ({
-  match: {
-    params: { id },
-  },
-}) => {
+const Profile = () => {
   const [showChild, setShowChild] = useState(false);
   const dispatch = useDispatch();
   const history = useHistory();
+  const { id } = useParams();
   useEffect(() => {
     dispatch(getSingleProfile(id));
     setShowChild(true);
