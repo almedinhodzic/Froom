@@ -40,7 +40,7 @@ Then go into frontend folder and run <br/>
 `npm install` To install client dependencies
 
 You need to create .env file with your mongoDB infos, and create jwt secret token to use database and login sistem.
-MONGO_URI = YOUR MONGO DB INFOS
+MONGO_URI = YOUR MONGO DB INFOS <br/>
 SECRET_TOKEN = YOUR SECRET JWT TOKEN
 
 #### Scripts
