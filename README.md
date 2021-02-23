@@ -39,6 +39,8 @@ First download project <br/>
 Then go into frontend folder and run <br/>
 `npm install` To install client dependencies
 
+You need to create .env file with your mongoDB infos, and create jwt secret token to use database and login sistem.
+
 #### Scripts
 
 `npm run dev` to run both express server and react <br/>
@@ -77,7 +79,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
 [Back To The Top](#FROOM)
 
 ---
@@ -86,5 +87,4 @@ SOFTWARE.
 
 - LinkedIn - [@almedin](https://www.linkedin.com/in/almedin-hodzic-171a3b203/)
 
-[Back To The Top](#FROOM) 
-
+[Back To The Top](#FROOM)
